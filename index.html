@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+  <body>
+    <header class="animate__animated animate__slideInDown animate__fast">
+       <div class="logo">
+        <img src="assets/icons/partner.png" alt="logo" class="logo-img" />
+        <h1 class="logo-title animate__animated animate__pulse animate__infinite">TREESAKEN</h1>
+       </div>
+       <nav>
+          <ul>
+             <li><a href="#profile">PROFILE</a></li>
+             <li><a href="mailto:mbilalfatiha62@gmail.com">EMAIL</a></li>
+          </ul>
+       </nav>
+       <button class="btn-cta animate__animated animate__swing animate__infinite" onclick="redirinstagram()">Follow Me</button>
+    </header>
+    <div class="container">
+       <div class="intro">
+         <p class="title animate__animated animate__slideInLeft animate__fast">Hello M Bilal Fatiha Here!</p>
+         <p class="description animate__animated animate__slideInRight animate__fast">Student SMK CITRA NEGARA</p>
+         <img src="assets/1/1666256493495.jpg" alt="m bilal fatiha foto 1" class="img-foto animate__animated animate__slideInUp animate__fast" />
+       </div>
+    </div>
+    <div class="parallax">
+        <div class="tentang">
+             <p class="title animate__animated animate__fadeInTopLeft">I am Student</p>
+             <p class="description animate__animated animate__fadeInTopRight">A program is never less than 90% complete and never more than 95% complete</p>
+             <div class="mt-10">
+                <button class="btn-cta animate__animated animate__headShake animate__infinite" onclick="redirWhatsapp()">Whatsapp</button>
+             </div>
+        </div>
+        <div class="container">
+                        <div class="card" id="profile">
+                              <div class="card-item animate__animated animate__fadeInLeft">
+                                  <img src="assets/icons/wrench.png" alt="icon 1" class="icon" />
+                                  <p class="card-title">Mengatasi troubleshooting</p>
+                                  <p class="card-description">hubungi ketika anda membutuhkan bantuan.</p>
+                              </div>
+                              <div class="card-item animate__animated animate__fadeInUp">
+                                  <img src="assets/icons/1384015.png" alt="icon 2" class="icon" />
+                                  <p class="card-title">INSTAGRAM</p>
+                                  <P class="card-description">mhmdbilalfath</P>          
+                              </div>
+                              <div class="card-item animate__animated animate__fadeInRight">
+                                  <img src="assets/icons/5968759.png" alt="icon 3" class="icon" />
+                                  <p class="card-title">DISCORD</p>
+                                  <p class="card-description">TREESAKEN #4428</p>         
+                              </div>
+                        </div>
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy; M Bilal Fatiha Website 2022</p>
+    </footer>
+    <script>
+        function redirinstagram() {
+            window.location.href = "https://instagram.com/mhmdbilalfath"
+        }
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/+6289665320408"
+        }
+    </script>
+  </body>
+</html>
